@@ -15,7 +15,6 @@
             <h1>
                 <a href = "/">RUN BUDDY</a>
             </h1>
-
             <nav>
                 <ul>
                     <li>
@@ -33,7 +32,6 @@
                 </ul>
             </nav>
         </header>
-
         <!--hero/jumbotron-->
         <section class = "hero">
             <div class = "hero-form">
@@ -41,18 +39,20 @@
                 <p>Fill out this form and one of our trainers will schedule a consult</p>
                 <form>
                     <label for = "name">Enter full name:</label>
-                    <input type = "text" placeholder = "Your Name" name = "name" id = "name" class = "form-input"/>
+                    <input type = "text" placeholder = "Your Name" name = "name" id = "name" class = "form-input" />
                     <label for ="email">Enter email address:</label>
                     <input type = "email" placeholder = "Email Address" name = "email" id = "email" class = "form-input" />
                     <label for = "phone">Enter a telephone number:</label>
                     <input type ="tel" placeholder = "Phone Number" name = "phone" id = "phone" class = "form-input" />
 
                     <p>
-                        Have you worked out wiht a trainer before?
+                        Have you worked out with a trainer before?
                         <input type =  "radio" name = "trainer-confirm" id = "trainer-yes" />
                         <label for = "trainer-yes">Yes</label>
                         <input type = "radio" name = "trainer-confirm" id = "trainer-no" />
                         <label for = "trainer-no">No</label> <br/>
+                    </p>
+                    <p>
                         <input type = "checkbox" name = "age-requirement" id = "age-requirement"/>
                         <label for = "age-requirement">I acknowledge that I am at least 18 years of age</label>
                     </p>
@@ -62,13 +62,36 @@
             </div>
         </section>
         <!--"what we do section"-->
-        <section>
-            <h1>What We Do</h1>    
+        <section id = "what-we-do">
+            <h2>What We Do</h2>   
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, ea hic minus ullam rem nulla debitis quod beatae iusto ab suscipit accusantium sapiente, pariatur perferendis, placeat mollitia? Quisquam, vitae illum?
+            </p> 
         </section>
 
         <!--"what you do" section-->
-        <section>
+        <section id = "what-you-do">
             <h2>What You Do</h2>
+            <div>
+                <image src = "step-1.svg" alt = "" />
+                <h3>Step 1: Fill Out the Form Above.</h3>
+                <p>You're already here, so why not?</p>
+            </div>
+            <div>
+                <image src ="step-2.svg" alt="" />
+                <h3>Step 2: Consult with One of Our Trainers.</h3>
+                <p>Are you here to build muscle, lose weight, or just feel good?</p>
+            </div>
+            <div>
+                <image src = "step-3.svg" alt ="" />
+                <h3>Step 3: Get Running.</h3>
+                <p>Hit the ground running (literally) once your trainer lays out your plan.</p>
+            </div>
+            <div>
+                <image src = "step-4.svg" alt = "" />
+                <h3>Step 4: See Results.</h3>
+                <p>Bi-weekly checkins with your trainer will keep you focused</p>
+            </div>
         </section>
 
         <!--"MEET THE TRAINERS section"-->
