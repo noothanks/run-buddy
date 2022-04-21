@@ -298,8 +298,8 @@ section {
   justify-content: space-between;
 }
 
-.step:last-child {
-  border-bottom: none;
+.step:not(:last-child) {
+  border-bottom: 2px solid var(--tertiary-color);
 }
 
 .step h3 {
