@@ -87,7 +87,7 @@ section {
 
 /* HERO STYLES START */
 .hero {
-  background-image: url('../images/hero-bg.jpg');
+  background-image: url('hero-bg.jpg');
   background-size: cover;
   background-position: center;
   display: flex;
@@ -358,4 +358,16 @@ section {
 
 .flex-row {
   display: flex;
+}
+/*Media Queries*/
+@media screen and (max-width: 980px) {
+
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 575px) {
+
 }
